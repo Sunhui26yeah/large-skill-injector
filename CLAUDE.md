@@ -10,10 +10,15 @@
 
 ## 目录约定
 
+参考了 [Karpathy 模式的一个实际实现（NicholasSpisak/second-brain）](https://github.com/NicholasSpisak/second-brain) 后，采用类似但简化的子目录分类（不用 Obsidian 的 `[[wikilink]]` 语法，统一用标准 markdown 相对路径链接 `[文字](相对路径.md)`，保证脱离 Obsidian、纯 GitHub/纯文本场景下也能跳转）：
+
 - `index.md` — 所有 wiki 页面的分类目录，按主题分组，新增页面必须在这里登记一行。
 - `log.md` — 追加写的操作日志，每次 ingest / query / lint 都在末尾加一行，不回溯修改历史记录。
-- 日期类页面命名为 `YYYY-MM-DD_<主题>.md`，例如 `2026-08-13_top10_corp.md`。
-- 主题类页面直接用主题命名，例如 `个人健康记录.md`、`某研究方向笔记.md`，不强制子目录，视内容量再拆分。
+- `daily/` — 日期类页面，命名为 `YYYY-MM-DD_<主题>.md`，例如 `daily/2026-08-13_top10_corp.md`。
+- `concepts/` — 主题/概念类页面，一个概念一个文件（借鉴 Andy Matuschak 的 [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes) 原子化原则：一篇笔记只讲一个概念，方便被多处引用而不必扯出整个话题）。内容量大的主题可以开子目录，比如 `concepts/CRA/`，但子目录内必须有一个总览/hub 页面做入口。
+- `entities/` — 人物、组织、产品、工具等实体类页面（暂未启用，需要时再建）。
+- `synthesis/` — 跨多个 concepts/entities 的综合分析、对比类页面（暂未启用，需要时再建）。
+- 所有页面之间的引用一律用**相对路径**的 markdown 链接，不用绝对路径（这样整个 `Large_Skill_Injector/` 目录换位置、被别的机器 clone 之后链接依然有效）；只有引用仓库之外的本地文件（比如 `../../Misc/` 里的原始资料）时才允许链接"跳出"仓库，且要在文字里注明这是本地路径、不在本仓库版本控制范围内。
 
 ## 三个操作
 
