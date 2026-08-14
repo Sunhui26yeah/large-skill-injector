@@ -22,7 +22,18 @@
 
 ## Entities
 
-- （暂无，需要时再建）
+来自每日公司动态里出现的公司，一家公司一篇页面，随时间随新的每日动态积累「相关动态」链接：
+
+- [NVIDIA](entities/NVIDIA.md)
+- [Apple](entities/Apple.md)
+- [Alphabet / Google](entities/Alphabet.md)
+- [Microsoft](entities/Microsoft.md)
+- [Amazon](entities/Amazon.md)
+- [台积电 / TSMC](entities/TSMC.md)
+- [Broadcom](entities/Broadcom.md)
+- [SpaceX](entities/SpaceX.md)
+- [Meta Platforms](entities/Meta.md)
+- [Tesla](entities/Tesla.md)
 
 ## Synthesis
 
