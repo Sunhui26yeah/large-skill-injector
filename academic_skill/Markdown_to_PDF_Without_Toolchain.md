@@ -111,4 +111,4 @@ Put the final PDF next to the source `.md` file (not just in scratchpad) — it'
 
 ## Related
 
-Only this one page under `Academic_skills/` for now — see [index.md](../index.md). If more pages accumulate here later, add an overview/hub page as the entry point (see `CLAUDE.md`'s directory conventions for the pattern).
+Only this one page under `academic_skill/` for now — see [index.md](../index.md). If more pages accumulate here later, add an overview/hub page as the entry point (see `CLAUDE.md`'s directory conventions for the pattern).

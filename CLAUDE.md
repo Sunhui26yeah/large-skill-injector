@@ -20,7 +20,7 @@ Modeled on [a real implementation of the Karpathy pattern (NicholasSpisak/second
 - `concepts/` — topic/concept pages, one concept per file (borrowing the atomicity principle from Andy Matuschak's [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes): one note covers one concept, so it can be referenced from many places without dragging in an entire topic). Topics with a lot of content can get their own subdirectory, but any such subdirectory must have an overview/hub page as its entry point.
 - `entities/` — pages for people, organizations, products, tools, etc. (enabled as needed).
 - `synthesis/` — cross-cutting analysis/comparison pages spanning multiple concepts/entities (enabled as needed).
-- `Academic_skills/` — reusable how-to pages for academic/paper-writing workflows (procedural, unlike the fact/concept-oriented `concepts/`).
+- `academic_skill/` — reusable how-to pages for academic/paper-writing workflows (procedural, unlike the fact/concept-oriented `concepts/`).
 - All cross-page references use **relative-path** markdown links, never absolute paths (so the whole `Large_Skill_Injector/` directory stays portable if moved or cloned elsewhere). Linking "out" of the repo (e.g. to raw material in `../../Misc/`) is only allowed for local files outside version control, and must be noted as such in the surrounding text.
 
 ## The three operations

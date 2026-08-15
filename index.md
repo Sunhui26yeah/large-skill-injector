@@ -16,7 +16,7 @@ Written automatically to `daily/` by a cloud routine at 23:59 (Pacific time) eve
 
 Reusable how-to pages for paper/academic-writing workflows (procedural, unlike the fact/concept-oriented `concepts/`):
 
-- [Markdown to PDF Without a pandoc/LaTeX Toolchain](Academic_skills/Markdown_to_PDF_Without_Toolchain.md) — python-markdown + GFM checkbox preprocessing + headless Chrome printing, plus a gotcha where emoji used as checkbox glyphs collapse to the same box in the PDF renderer, and a technique for screenshot-verifying multi-page renders
+- [Markdown to PDF Without a pandoc/LaTeX Toolchain](academic_skill/Markdown_to_PDF_Without_Toolchain.md) — python-markdown + GFM checkbox preprocessing + headless Chrome printing, plus a gotcha where emoji used as checkbox glyphs collapse to the same box in the PDF renderer, and a technique for screenshot-verifying multi-page renders
 
 ## Entities
 
