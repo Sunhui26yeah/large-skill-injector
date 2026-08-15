@@ -43,3 +43,9 @@ Triggered as needed. Checks for: contradictory statements, outdated-but-unflagge
 This is the wiki's first standing automated ingest source: every day a cloud routine (not run locally) searches for that day's news on the top 10 companies by global market cap, summarizes it into `daily/YYYY-MM-DD_top10_corp.md`, and commits/pushes it to this repo. **These pages arrive asynchronously** — `git pull` locally to see the latest.
 
 That routine is only responsible for writing the raw summary page; it does not update `index.md`. Periodically (e.g. whenever this skill runs locally), newly appeared dated pages should be registered under the "Daily Company Digest" category in `index.md`, treated as an ingest.
+
+## On the daily people-watch digest
+
+A second standing automated ingest source, parallel to the company digest above: every day a separate cloud routine reads `daily/people_watchlist.md` (a maintained list of named individuals with their roles), searches the prior 24 hours for public activity/mentions of each person (web search, X/Twitter, LinkedIn where reachable), and writes `daily/YYYY-MM-DD_people_watch.md`. Same async-arrival caveat applies — `git pull` to see the latest.
+
+`daily/people_watchlist.md` is the input the routine reads fresh every run — to add or remove a tracked person, edit that file (or ask Claude to), not the routine itself. The routine is likewise only responsible for the raw daily page; it does not update `index.md`, and it does not create `entities/` profile pages for the tracked people (deliberately kept out of scope unless requested — don't build that layer speculatively). Newly appeared dated pages get registered under a "Daily People-Watch Digest" category in `index.md` the same way as the company digest.

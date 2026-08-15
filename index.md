@@ -8,6 +8,13 @@ Written automatically to `daily/` by a cloud routine at 23:59 (Pacific time) eve
 
 - [2026-08-13](daily/2026-08-13_top10_corp.md) — Same-day activity for NVIDIA/Apple/Alphabet/Microsoft/Amazon/TSMC/Broadcom/SpaceX/Meta/Tesla (a manual test run, not produced by the cloud routine)
 
+## Daily People-Watch Digest
+
+Written automatically to `daily/` by a separate cloud routine at 23:45 (Pacific time) every day — 15 minutes before the company digest above — summarizing the prior 24 hours of public activity/mentions for the people on [`daily/people_watchlist.md`](daily/people_watchlist.md).
+
+- [people_watchlist.md](daily/people_watchlist.md) — the maintained list of 20 tracked people (AI labs/model developers, chips/infrastructure, big tech CEOs, AI safety/academia, capital/governance); edit this to add/remove who gets tracked
+- (no daily digest pages yet — routine created 2026-08-14, first scheduled fire pending)
+
 ## Concepts
 
 - [LLM Wiki Design Patterns](concepts/LLM_Wiki_Design_Patterns.md) — Survey of several "LLM-maintained personal knowledge base" implementations on GitHub (Karpathy's original pattern, NicholasSpisak/second-brain, Dendron/Logseq/Foam, Andy Matuschak's evergreen notes), and the design decisions made for this repo as a result
