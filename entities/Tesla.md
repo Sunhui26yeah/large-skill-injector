@@ -1,7 +1,7 @@
 # Tesla (TSLA)
 
-电动车与能源公司,总部得州奥斯汀,创始人/CEO Elon Musk。业务包括电动车整车制造、储能(Megapack)、太阳能,以及仍在推进中的全自动驾驶(FSD)软件订阅。
+Electric vehicle and energy company, headquartered in Austin, Texas, founded/led by Elon Musk. Businesses include EV manufacturing, energy storage (Megapack), solar, and the still-developing Full Self-Driving (FSD) software subscription.
 
-## 相关动态
+## Related Activity
 
-- [2026-08-13](../daily/2026-08-13_top10_corp.md#10-tesla-tsla-129t) — 股价涨约3.8%至$339.96,部分受得州大型太阳能产线项目"Project Crystal Sun"消息带动;FSD v14.1 Lite 继续推送 HW3 车型;部分欧洲监管机构开始批准有监督版本的高阶驾驶辅助功能
+- [2026-08-13](../daily/2026-08-13_top10_corp.md#10-tesla-tsla-129t) — Shares up ~3.8% to $339.96, partly on news of a large Texas solar production project ("Project Crystal Sun"); FSD v14.1 Lite continuing rollout to HW3 vehicles; some European regulators began approving supervised versions of advanced driver-assistance features

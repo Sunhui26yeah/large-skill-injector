@@ -1,7 +1,7 @@
-# 台积电 / Taiwan Semiconductor Manufacturing Company (TSM)
+# TSMC / Taiwan Semiconductor Manufacturing Company (TSM)
 
-全球最大的晶圆代工厂,总部台湾新竹。不设计自有芯片品牌,而是为 NVIDIA、Apple、AMD 等客户代工制造先进制程芯片,是全球 AI/高端芯片供应链里几乎不可替代的一环。
+The world's largest pure-play foundry, headquartered in Hsinchu, Taiwan. Doesn't design its own branded chips — instead fabricates advanced-node chips for customers like NVIDIA, Apple, and AMD, making it a nearly irreplaceable link in the global AI/high-end chip supply chain.
 
-## 相关动态
+## Related Activity
 
-- [2026-08-13](../daily/2026-08-13_top10_corp.md#6-taiwan-semiconductor-tsmc-tsm-223t) — 在中国区科技股普跌背景下逆势上涨;本周早些时候董事会批准 294 亿美元资本开支及 Q2 股息,并与索尼成立图像传感器合资公司(约 17.7 亿美元)
+- [2026-08-13](../daily/2026-08-13_top10_corp.md#6-taiwan-semiconductor-tsmc-tsm-223t) — Gained against a broader decline in Chinese tech stocks; board approved $29.4B capex and a Q2 dividend earlier in the week, plus a ~$1.77B Sony image-sensor joint venture

@@ -1,43 +1,45 @@
-# Large Skill Injector — 外置大脑 Schema
+# Large Skill Injector — Schema
 
-这是一个按 [Karpathy 的 LLM Wiki 模式](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 组织的个人知识库。目标不是每次现查现答（RAG），而是持续把新信息"编译"进一套互相引用的 markdown 页面里，越用越完善。
+This is a personal knowledge base organized after [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). The goal isn't to look things up fresh every time (RAG-style), but to continuously "compile" new information into a set of cross-referenced markdown pages that gets better the more it's used.
 
-## 三层结构
+**Language: everything in this repo — schema, index, log, and every wiki page in any subdirectory — is written in English, regardless of the language of the source material being ingested.** Translate as needed when ingesting non-English input.
 
-1. **原始资料** — 不改动的输入（网页链接、粘贴的文章、数据文件等），只作为一次性输入，不必长期保留原文。
-2. **wiki 页面** — 本目录下的 markdown 文件：摘要页、主题页、日期页，互相用相对链接引用。
-3. **本文件（schema）** — 定义组织规则和三个操作的行为。
+## Three layers
 
-## 目录约定
+1. **Raw material** — unmodified input (web links, pasted articles, data files, etc.), used once and not necessarily kept long-term in its original form.
+2. **Wiki pages** — the markdown files in this directory: summary pages, topic pages, dated pages, cross-linked with each other.
+3. **This file (the schema)** — defines the organizing rules and the behavior of the three operations.
 
-参考了 [Karpathy 模式的一个实际实现（NicholasSpisak/second-brain）](https://github.com/NicholasSpisak/second-brain) 后，采用类似但简化的子目录分类（不用 Obsidian 的 `[[wikilink]]` 语法，统一用标准 markdown 相对路径链接 `[文字](相对路径.md)`，保证脱离 Obsidian、纯 GitHub/纯文本场景下也能跳转）：
+## Directory conventions
 
-- `index.md` — 所有 wiki 页面的分类目录，按主题分组，新增页面必须在这里登记一行。
-- `log.md` — 追加写的操作日志，每次 ingest / query / lint 都在末尾加一行，不回溯修改历史记录。
-- `daily/` — 日期类页面，命名为 `YYYY-MM-DD_<主题>.md`，例如 `daily/2026-08-13_top10_corp.md`。
-- `concepts/` — 主题/概念类页面，一个概念一个文件（借鉴 Andy Matuschak 的 [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes) 原子化原则：一篇笔记只讲一个概念，方便被多处引用而不必扯出整个话题）。内容量大的主题可以开子目录，比如 `concepts/CRA/`，但子目录内必须有一个总览/hub 页面做入口。
-- `entities/` — 人物、组织、产品、工具等实体类页面（暂未启用，需要时再建）。
-- `synthesis/` — 跨多个 concepts/entities 的综合分析、对比类页面（暂未启用，需要时再建）。
-- `Academic_skills/` — 论文/学术写作相关、可复用的操作流程类页面（how-to，跟 `concepts/` 偏事实/概念不同）。
-- 所有页面之间的引用一律用**相对路径**的 markdown 链接，不用绝对路径（这样整个 `Large_Skill_Injector/` 目录换位置、被别的机器 clone 之后链接依然有效）；只有引用仓库之外的本地文件（比如 `../../Misc/` 里的原始资料）时才允许链接"跳出"仓库，且要在文字里注明这是本地路径、不在本仓库版本控制范围内。
+Modeled on [a real implementation of the Karpathy pattern (NicholasSpisak/second-brain)](https://github.com/NicholasSpisak/second-brain), with similar but simplified subdirectory categories (not using Obsidian's `[[wikilink]]` syntax — all cross-references use standard markdown relative-path links `[text](relative/path.md)`, so navigation still works outside Obsidian, e.g. plain GitHub or plain text editors):
 
-## 三个操作
+- `index.md` — the catalog of every wiki page, grouped by topic. Every new page must be registered here.
+- `log.md` — an append-only operation log; every ingest/query/lint adds a line at the end, history is never rewritten.
+- `daily/` — dated pages, named `YYYY-MM-DD_<topic>.md`, e.g. `daily/2026-08-13_top10_corp.md`.
+- `concepts/` — topic/concept pages, one concept per file (borrowing the atomicity principle from Andy Matuschak's [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes): one note covers one concept, so it can be referenced from many places without dragging in an entire topic). Topics with a lot of content can get their own subdirectory, but any such subdirectory must have an overview/hub page as its entry point.
+- `entities/` — pages for people, organizations, products, tools, etc. (enabled as needed).
+- `synthesis/` — cross-cutting analysis/comparison pages spanning multiple concepts/entities (enabled as needed).
+- `Academic_skills/` — reusable how-to pages for academic/paper-writing workflows (procedural, unlike the fact/concept-oriented `concepts/`).
+- All cross-page references use **relative-path** markdown links, never absolute paths (so the whole `Large_Skill_Injector/` directory stays portable if moved or cloned elsewhere). Linking "out" of the repo (e.g. to raw material in `../../Misc/`) is only allowed for local files outside version control, and must be noted as such in the surrounding text.
 
-### Ingest（吃进新资料）
-1. 读输入，提炼关键信息。
-2. 如果已有相关页面，更新它（标注矛盾、补充信息、不要覆盖旧结论——保留变更痕迹）；否则新建页面。
-3. 在 `index.md` 里登记/更新这条页面的索引。
-4. 在 `log.md` 末尾追加一行：`- [YYYY-MM-DD HH:MM] ingest: <做了什么，涉及哪些页面>`。
+## The three operations
 
-### Query（查询）
-1. 先看 `index.md` 定位相关页面，而不是全文搜索。
-2. 如果这次问答产出了值得沉淀的新结论，把它写成新页面或追加到已有页面（视同一次小型 ingest）。
+### Ingest (absorb new material)
+1. Read the input, extract the key information.
+2. If a relevant page already exists, update it (flag contradictions, add information, don't overwrite prior conclusions — preserve the trail of changes); otherwise create a new page.
+3. Register/update the entry for this page in `index.md`.
+4. Append a line to `log.md`: `- [YYYY-MM-DD HH:MM] ingest: <what was done, which pages were touched>`.
 
-### Lint（体检）
-按需触发，检查：矛盾的表述、过时但未标注的结论、孤立（没被 index.md 或其他页面引用）的页面、该建立但缺失的交叉引用。发现问题直接修，并在 `log.md` 记一行。
+### Query
+1. Check `index.md` first to locate relevant pages, rather than full-text search.
+2. If the query produces a new conclusion worth keeping, write it into a new page or append it to an existing one (treat this as a small ingest).
 
-## 关于每日 Top10 公司动态
+### Lint (health check)
+Triggered as needed. Checks for: contradictory statements, outdated-but-unflagged conclusions, orphaned pages (not referenced by `index.md` or any other page), and cross-references that should exist but are missing. Fix issues directly, and log a line in `log.md`.
 
-这是本 wiki 第一个常驻的自动化 ingest 来源：每天由一个云端定时任务（不在本地跑）搜索当天全球市值前十公司的新闻，摘要写成 `daily/YYYY-MM-DD_top10_corp.md`，提交并推送到本仓库。**这些页面到本地是异步的**——本地要看到最新内容，需要 `git pull`。
+## On the daily Top 10 company digest
 
-该任务只负责"写入原始摘要页"，不负责更新 `index.md`。定期（比如每次你在本地用这个 skill 时）应该把新出现的日期页登记进 `index.md` 的"每日公司动态"分类下，视为一次 ingest。
+This is the wiki's first standing automated ingest source: every day a cloud routine (not run locally) searches for that day's news on the top 10 companies by global market cap, summarizes it into `daily/YYYY-MM-DD_top10_corp.md`, and commits/pushes it to this repo. **These pages arrive asynchronously** — `git pull` locally to see the latest.
+
+That routine is only responsible for writing the raw summary page; it does not update `index.md`. Periodically (e.g. whenever this skill runs locally), newly appeared dated pages should be registered under the "Daily Company Digest" category in `index.md`, treated as an ingest.

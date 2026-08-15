@@ -1,7 +1,7 @@
 # Microsoft (MSFT)
 
-软件与云服务公司,总部雷德蒙德。核心业务 Windows/Office(现 Microsoft 365)、Azure 云、以及和 OpenAI 的深度投资/合作关系。Copilot 是其把生成式 AI 铺进全线产品的主要抓手。
+Software and cloud services company, headquartered in Redmond. Core businesses are Windows/Office (now Microsoft 365), Azure cloud, and a deep investment/partnership relationship with OpenAI. Copilot is its main vehicle for pushing generative AI across the whole product line.
 
-## 相关动态
+## Related Activity
 
-- [2026-08-13](../daily/2026-08-13_top10_corp.md#4-microsoft-msft-366-369t) — 因 AI 资本开支加码,碳移除credit采购量同比砍80%;合并消费版/企业版 Copilot App;因 AI 钓鱼攻击上升,警告 IT 管理员弃用短信/语音验证转向 passkey
+- [2026-08-13](../daily/2026-08-13_top10_corp.md#4-microsoft-msft-366-369t) — Cut carbon-removal credit purchases ~80% YoY amid rising AI capex; merging consumer and business Copilot apps into one; warned IT admins to drop SMS/voice auth for passkeys due to rising AI-assisted phishing

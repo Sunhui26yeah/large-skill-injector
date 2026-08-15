@@ -1,7 +1,7 @@
 # Meta Platforms (META)
 
-社交媒体公司,总部门洛帕克,旗下 Facebook / Instagram / WhatsApp / Threads,近年大举投入 AI 基础设施(自研模型 Llama 系列)与元宇宙(Reality Labs,持续亏损但战略性投入未减)。长期面对多国监管围绕青少年保护、数据隐私的诉讼与立法压力。
+Social media company, headquartered in Menlo Park, parent of Facebook / Instagram / WhatsApp / Threads. Investing heavily in recent years in AI infrastructure (the in-house Llama model series) and the metaverse (Reality Labs — ongoing losses but undiminished strategic commitment). Long-running target of multi-country regulatory/litigation pressure around youth protection and data privacy.
 
-## 相关动态
+## Related Activity
 
-- [2026-08-13](../daily/2026-08-13_top10_corp.md#9-meta-platforms-meta-147t) — 面对多州总检察长"青少年伤害"诉讼(潜在赔偿最高1.4万亿美元),Meta 称指控"毫无根据";已注销75.6万+澳大利亚疑似未满16岁账号以遵守当地社交媒体禁令;重申2026年AI/数据中心资本开支指引1300-1450亿美元
+- [2026-08-13](../daily/2026-08-13_top10_corp.md#9-meta-platforms-meta-147t) — Facing a multi-state AG "youth harm" trial (potential damages cited up to $1.4T), which Meta calls "unsubstantiated"; deactivated 756,000+ suspected under-16 accounts in Australia to comply with the local social media ban; reaffirmed 2026 AI/data-center capex guidance of $130–145B

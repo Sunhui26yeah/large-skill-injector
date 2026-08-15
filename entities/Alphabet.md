@@ -1,7 +1,7 @@
 # Alphabet / Google (GOOGL / GOOG)
 
-Google 母公司,总部 Mountain View。核心业务搜索广告 + YouTube + Google Cloud,近年 AI 相关资本开支(自研 TPU、数据中心)大幅上升,和微软、Anthropic 等有多层合作/竞争关系。股票分 Class A(GOOGL,有投票权)和 Class C(GOOG,无投票权)。
+Google's parent company, headquartered in Mountain View. Core businesses are search advertising + YouTube + Google Cloud; AI-related capex (in-house TPUs, data centers) has risen sharply in recent years, with layered cooperation/competition relationships with Microsoft, Anthropic, and others. Stock splits into Class A (GOOGL, voting) and Class C (GOOG, non-voting).
 
-## 相关动态
+## Related Activity
 
-- [2026-08-13](../daily/2026-08-13_top10_corp.md#3-alphabet-googl-420t-class-c-455t-combined-per-other-sources) — 发布新 AI 编程模型;因内存芯片短缺涨价;赞助德州 150 亿美元"Nexus"数据中心园区为 Anthropic 提供算力;近 300 家法国出版商就 AI Overviews 提起反垄断投诉
+- [2026-08-13](../daily/2026-08-13_top10_corp.md#3-alphabet-googl-420t-class-c-455t-combined-per-other-sources) — Released a new AI coding model; raised prices citing a memory-chip shortage; sponsoring a $15B "Nexus" data-center campus in Texas to back Anthropic; ~300 French publishers filed an antitrust complaint over AI Overviews

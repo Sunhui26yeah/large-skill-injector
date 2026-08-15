@@ -1,7 +1,7 @@
 # SpaceX (SPCX)
 
-航天公司,总部得州 Starbase / 加州霍桑,创始人 Elon Musk。业务包括 Falcon 9/Starship 火箭发射、Starlink 卫星互联网。**注意**:2026 年才完成 IPO,是本榜单里唯一的"新股",早期投资者锁定期陆续解禁中,股本结构和市值仍在快速变化,排名/估值比其他 9 家公司波动大得多,应谨慎对待任何"市值排名"数字的时效性。
+Aerospace company, headquartered at Starbase, Texas / Hawthorne, California, founded by Elon Musk. Businesses include Falcon 9/Starship launches and Starlink satellite internet. **Note**: only completed its IPO in 2026, making it the only newly-public stock on this list — early-investor lockups are still expiring in waves, so the share structure and market cap are still moving fast. Its ranking/valuation is far more volatile than the other 9 companies, so treat any "market cap ranking" figure for it as time-sensitive.
 
-## 相关动态
+## Related Activity
 
-- [2026-08-13](../daily/2026-08-13_top10_corp.md#8-spacex-spcx-193t) — 通过首次解禁测试,股价涨9.65%至$146.15(四日累计涨超40%);Google 被曝对其有94亿美元投资,先于下一波425亿美元解禁;Starlink 发射节奏正常进行
+- [2026-08-13](../daily/2026-08-13_top10_corp.md#8-spacex-spcx-193t) — Passed its first lockup-expiry test, shares up 9.65% to $146.15 (a 4-day rally of 40%+); Google reportedly holds a $94B stake ahead of a further $42.5B unlock; Starlink launch cadence continuing as normal

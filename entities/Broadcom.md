@@ -1,7 +1,7 @@
 # Broadcom (AVGO)
 
-半导体与基础设施软件公司,总部圣何塞。业务两条腿走路:定制芯片/网络芯片(近年是 AI 数据中心网络的重要供应商)+ 通过收购(VMware 等)积累的企业软件业务。
+Semiconductor and infrastructure software company, headquartered in San Jose. Runs on two legs: custom/networking chips (a major supplier for AI data-center networking in recent years) + an enterprise software business built up through acquisitions (VMware, etc.).
 
-## 相关动态
+## Related Activity
 
-- [2026-08-13](../daily/2026-08-13_top10_corp.md#7-broadcom-avgo-198t) — 股价随芯片/大盘科技股普涨上涨约2.1%;AI 半导体收入同比+143%达108亿美元,总营收同比+48%达221.9亿美元
+- [2026-08-13](../daily/2026-08-13_top10_corp.md#7-broadcom-avgo-198t) — Shares up ~2.1% as chip/mega-cap tech stocks rallied broadly; AI semiconductor revenue +143% YoY to $10.80B, total revenue +48% YoY to $22.19B
