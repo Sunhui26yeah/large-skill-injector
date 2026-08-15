@@ -18,6 +18,7 @@
 - `concepts/` — 主题/概念类页面，一个概念一个文件（借鉴 Andy Matuschak 的 [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes) 原子化原则：一篇笔记只讲一个概念，方便被多处引用而不必扯出整个话题）。内容量大的主题可以开子目录，比如 `concepts/CRA/`，但子目录内必须有一个总览/hub 页面做入口。
 - `entities/` — 人物、组织、产品、工具等实体类页面（暂未启用，需要时再建）。
 - `synthesis/` — 跨多个 concepts/entities 的综合分析、对比类页面（暂未启用，需要时再建）。
+- `Academic_skills/` — 论文/学术写作相关、可复用的操作流程类页面（how-to，跟 `concepts/` 偏事实/概念不同）。
 - 所有页面之间的引用一律用**相对路径**的 markdown 链接，不用绝对路径（这样整个 `Large_Skill_Injector/` 目录换位置、被别的机器 clone 之后链接依然有效）；只有引用仓库之外的本地文件（比如 `../../Misc/` 里的原始资料）时才允许链接"跳出"仓库，且要在文字里注明这是本地路径、不在本仓库版本控制范围内。
 
 ## 三个操作

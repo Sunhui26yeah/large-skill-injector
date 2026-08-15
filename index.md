@@ -20,6 +20,12 @@
   - [6. 合格评定](concepts/CRA/CRA_6_合格评定.md)
   - [7. 过渡期](concepts/CRA/CRA_7_过渡期.md)
 
+## Academic Skills
+
+论文/学术写作相关、可复用的操作流程类页面（跟 `concepts/` 里偏事实/概念性的笔记不同，这里是"怎么做"的 how-to）：
+
+- [Markdown 转 PDF：没有 pandoc/LaTeX 工具链时的本地方案](Academic_skills/Markdown转PDF_无工具链本地方案.md) — 用 python-markdown 预处理 GFM checkbox + headless Chrome 打印，附一个"emoji 当 checkbox 图标会被 PDF 渲染器退化成同一个方框"的坑，以及截图核查多页 PDF 内容的技巧
+
 ## Entities
 
 来自每日公司动态里出现的公司，一家公司一篇页面，随时间随新的每日动态积累「相关动态」链接：
