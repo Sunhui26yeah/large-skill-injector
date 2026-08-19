@@ -49,3 +49,14 @@ That routine is only responsible for writing the raw summary page; it does not u
 A second standing automated ingest source, parallel to the company digest above: every day a separate cloud routine reads `daily/people_watchlist.md` (a maintained list of named individuals with their roles), searches the prior 24 hours for public activity/mentions of each person (web search, X/Twitter, LinkedIn where reachable), and writes `daily/YYYY-MM-DD_people_watch.md`. Same async-arrival caveat applies — `git pull` to see the latest.
 
 `daily/people_watchlist.md` is the input the routine reads fresh every run — to add or remove a tracked person, edit that file (or ask Claude to), not the routine itself. The routine is likewise only responsible for the raw daily page; it does not update `index.md`, and it does not create `entities/` profile pages for the tracked people (deliberately kept out of scope unless requested — don't build that layer speculatively). Newly appeared dated pages get registered under a "Daily People-Watch Digest" category in `index.md` the same way as the company digest.
+
+## On the daily digest email
+
+A third standing cloud routine (`large-skill-injector-daily-digest-email`) runs nightly at 00:20 America/Los_Angeles, after the ingest routines above. It does **not** write to the repo — it only reads `git log` to find every file newly added under `daily/` in the last 4 hours, then sends **one** consolidated email to hsun26@ncsu.edu, subject exactly `[Daily Digest]`, with a link to each new file. If nothing new was added that night, it sends nothing.
+
+**This is deliberately generic, not hardcoded to the two sources above.** Any future automated daily ingest routine is picked up by the digest email for free, with no changes needed to the digest routine itself, as long as it:
+1. Writes its output as a new file under `daily/` (any filename), and
+2. Commits and pushes that file to `main`, and
+3. Finishes running sometime between roughly 20:20 and 00:20 America/Los_Angeles (inside the digest routine's 4-hour lookback window).
+
+The digest routine derives a human-readable email label from the filename suffix (e.g. `_top10_corp.md` → "Top 10 Company Digest"); anything it doesn't recognize falls back to a generic title-cased label rather than being skipped. When adding a new daily automated source, prefer a `daily/YYYY-MM-DD_<topic>.md` naming convention consistent with the two above so the fallback label reads sensibly, but it isn't required for the email to include it — only steps 1–3 above are required.
