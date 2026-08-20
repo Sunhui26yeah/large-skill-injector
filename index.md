@@ -19,6 +19,7 @@ Written automatically to `daily/` by a separate cloud routine at 23:45 (Pacific 
 
 - [LLM Wiki Design Patterns](concepts/LLM_Wiki_Design_Patterns.md) — Survey of several "LLM-maintained personal knowledge base" implementations on GitHub (Karpathy's original pattern, NicholasSpisak/second-brain, Dendron/Logseq/Foam, Andy Matuschak's evergreen notes), and the design decisions made for this repo as a result
 - [New Grad 2027 Job Search — Primary Sources](concepts/New_Grad_2027_Job_Search_Sources.md) — The two sources to check first when asked about 2027 new-grad openings: 留学生海投网 (international-student-focused, broad roles/geos) and speedyapply/2027-AI-College-Jobs' NEW_GRAD_USA.md (AI/ML-specific, US-only, GitHub-native)
+- [US Visa Scheduling Website](concepts/US_Visa_Scheduling_Website.md) — Official link for scheduling US visa appointments, return this when asked for "the US visa website"
 
 ## Academic Skills
 
