@@ -21,6 +21,7 @@ Written automatically to `daily/` by a separate cloud routine at 23:45 (Pacific 
 - [New Grad 2027 Job Search — Primary Sources](concepts/New_Grad_2027_Job_Search_Sources.md) — The two sources to check first when asked about 2027 new-grad openings: 留学生海投网 (international-student-focused, broad roles/geos) and speedyapply/2027-AI-College-Jobs' NEW_GRAD_USA.md (AI/ML-specific, US-only, GitHub-native)
 - [US Visa Scheduling Website](concepts/US_Visa_Scheduling_Website.md) — Official link for scheduling US visa appointments, return this when asked for "the US visa website"
 - [PerfAgent (arXiv 2607.19653)](concepts/PerfAgent_2607_19653.md) — Profiler-guided, verifier-in-the-loop agent workflow for repository-level code optimization; closest existing baseline for Hui's PyTorch MCTS+KB thesis idea
+- [NC State CSC PhD Seminar Check-in](concepts/NC_State_CSC_PhD_Seminar_Checkin.md) — Link for the CSC department's PhD graduate seminar attendance check-in system (Unity ID SSO required)
 
 ## Academic Skills
 
