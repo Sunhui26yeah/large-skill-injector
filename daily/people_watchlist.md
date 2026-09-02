@@ -1,6 +1,6 @@
 # People Watchlist
 
-Maintained list of people tracked by the daily people-watch digest routine (`daily/YYYY-MM-DD_people_watch.md`). The routine reads this file fresh on every run, so add/remove people here rather than editing the routine itself — ask Claude to update this file and it takes effect on the next scheduled run automatically.
+Maintained list of subjects tracked by the daily people-watch digest routine (`daily/YYYY-MM-DD_people_watch.md`) — mostly named individuals, plus a few organizations that are too small/private to appear in the top-10-by-market-cap company digest. The routine reads this file fresh on every run, so add/remove entries here rather than editing the routine itself — ask Claude to update this file and it takes effect on the next scheduled run automatically.
 
 Grouped by category purely for readability; the digest routine preserves this grouping.
 
@@ -14,6 +14,7 @@ Grouped by category purely for readability; the digest routine preserves this gr
 - Jakub Pachocki — Chief Scientist, OpenAI
 - Alexandr Wang — Chief AI Officer, Meta (Meta Superintelligence Labs)
 - Mustafa Suleyman — CEO, Microsoft AI
+- Fei-Fei Li — Co-founder & CEO, World Labs; Co-director, Stanford HAI
 
 ## Chips / Infrastructure
 
@@ -38,3 +39,9 @@ Grouped by category purely for readability; the digest routine preserves this gr
 
 - Masayoshi Son — CEO, SoftBank
 - Fidji Simo — OpenAI executive (product & applications)
+
+## Companies / Organizations
+
+Entries here are searched the same way as the people above (name-scoped news/activity over the prior 24 hours). Kept in this file rather than the company digest because the company digest is strictly the top 10 by global market cap, which these are not.
+
+- World Labs — spatial-intelligence / world-model startup co-founded by Fei-Fei Li
