@@ -26,7 +26,7 @@ Grouped by category purely for readability; the digest routine preserves this gr
 
 - Satya Nadella — CEO, Microsoft
 - Sundar Pichai — CEO, Alphabet/Google
-- Tim Cook — CEO, Apple
+- John Ternus — CEO, Apple (since 2026-09-01)
 - Mark Zuckerberg — CEO, Meta
 - Andy Jassy — CEO, Amazon
 
