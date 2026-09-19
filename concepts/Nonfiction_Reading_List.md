@@ -20,10 +20,23 @@ Suggested reading order follows that ranking: *How to Kill a Language* and *Chal
 
 ## Notes on the individual books
 
-- **How to Kill a Language** (Sophia Smith Galer) — on language death and language revival: the
-  political and power dynamics that push minority languages out of use, and the efforts to
-  document and revive them. Journalistic non-fiction, most recent read of the three for the
-  recommender.
+- **How to Kill a Language** (Sophia Smith Galer) — on *linguicide*, the death of languages.
+  Premise: roughly half of the world's ~7,000 languages are expected to disappear this century,
+  killed by war, climate breakdown, migration, nationalism, neglect — and by quiet private
+  choices, such as parents deciding not to pass a language on. Structured as "the story of our
+  modern world in 10 languages": ten reported stories, each placing one language in its context
+  of heritage, identity and power (Kichwa in Ecuador, where shame deters parents from passing it
+  to their children; unrecognized languages in Oman with roots older than Arabic; Ukrainian; and
+  the author's own grandmother's Northern Italian *dialët*, vanishing both in Italy and in the
+  diaspora). The framing question is what is lost — culturally, politically, personally — when a
+  language is silenced, and the subtitle's "Power, Resistance" signals that the lens is political
+  rather than purely linguistic. The book grew out of the death of the author's Nonna, whose
+  dialect Smith Galer understands but cannot speak. Reported across five continents.
+  Author: Sophia Smith Galer, a British journalist (also runs the consultancy Viralect) known
+  for social-video journalism; earlier book *Losing It*.
+  Publication: William Collins (HarperCollins) in the UK, Crown (Penguin Random House) in the US.
+  ⚠️ Date unresolved — the author's own site lists UK 2025-05-07 / US 2025-07-07, but the
+  Chicago Review of Books review is dated 2026-07-13; verify before citing a year.
 - **Challenger** (Adam Higginbotham) — narrative account of the 1986 Space Shuttle *Challenger*
   disaster: the engineering decisions, organizational pressure, and warnings that went unheeded
   before the launch. Same author as *Midnight in Chernobyl*. An engineering-failure /
