@@ -37,10 +37,24 @@ Suggested reading order follows that ranking: *How to Kill a Language* and *Chal
   Publication: William Collins (HarperCollins) in the UK, Crown (Penguin Random House) in the US.
   ⚠️ Date unresolved — the author's own site lists UK 2025-05-07 / US 2025-07-07, but the
   Chicago Review of Books review is dated 2026-07-13; verify before citing a year.
-- **Challenger** (Adam Higginbotham) — narrative account of the 1986 Space Shuttle *Challenger*
-  disaster: the engineering decisions, organizational pressure, and warnings that went unheeded
-  before the launch. Same author as *Midnight in Chernobyl*. An engineering-failure /
-  organizational-decision-making case study as much as a disaster story.
+- **Challenger** (Adam Higginbotham) — narrative non-fiction on the Space Shuttle *Challenger*
+  disaster of 1986-01-28. Not only the 73 seconds: the book tracks a handful of central figures
+  — including each of the seven crew members — through the years *before* the accident, then
+  covers the disaster itself and the investigation after it. It also recovers the wider history
+  of the shuttle program and of the designers, engineers and test pilots who got the first
+  shuttle flying at all, people the disaster's shadow has largely erased.
+  The thesis is institutional, not mechanical: ambition and engineering ingenuity undermined by
+  political cynicism and cost-cutting in the service of national prestige; warning signs
+  recognized, then ignored, then hidden from the public; and an investigation that only got at
+  the truth because leakers and whistleblowers pushed it there.
+  Author: Adam Higginbotham, same author as *Midnight in Chernobyl* — the same method (years of
+  interviews and archival work rendered as narrative) applied to a second technological
+  catastrophe.
+  Publication: Simon & Schuster, 2024-05-14. Won the National Book Critics Circle Award in
+  Nonfiction and the Kirkus Prize for Nonfiction.
+  Reads as an organizational-decision-making and engineering-failure case study as much as a
+  disaster story — the "normalization of deviance" pattern (a known defect tolerated because it
+  hasn't killed anyone *yet*) is the through-line.
 - **Why We Sleep** (Matthew Walker) — popular-science argument for sleep's role in health,
   memory, and cognition. Worth knowing that this book has drawn published criticism over some of
   its statistical claims; read the specific numbers skeptically even if the broad thesis holds.
