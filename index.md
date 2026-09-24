@@ -22,6 +22,7 @@ Written automatically to `daily/` by a separate cloud routine at 23:45 (Pacific 
 - [US Visa Scheduling Website](concepts/US_Visa_Scheduling_Website.md) — Official link for scheduling US visa appointments, return this when asked for "the US visa website"
 - [PerfAgent (arXiv 2607.19653)](concepts/PerfAgent_2607_19653.md) — Profiler-guided, verifier-in-the-loop agent workflow for repository-level code optimization; closest existing baseline for Hui's PyTorch MCTS+KB thesis idea
 - [NC State CSC PhD Seminar Check-in](concepts/NC_State_CSC_PhD_Seminar_Checkin.md) — Link for the CSC department's PhD graduate seminar attendance check-in system (Unity ID SSO required)
+- [Hosting Interns and Publishing as a Google SWE L4](concepts/Google_L4_Intern_Hosting_And_Publishing.md) — When a May-2027 Google start (Core ML Frameworks & Compiler, L4) makes co-hosting and hosting possible (Student Researcher from ~Nov 2027; first summer intern 2028), and how to keep publishing on a SWE rather than Research Scientist ladder
 - [Non-Fiction Reading List](concepts/Nonfiction_Reading_List.md) — Running to-read list of non-fiction books with who recommended each and how they ranked them; currently *How to Kill a Language* (Sophia Smith Galer), *Challenger* (Adam Higginbotham), *Why We Sleep* (Matthew Walker)
 
 ## Academic Skills
