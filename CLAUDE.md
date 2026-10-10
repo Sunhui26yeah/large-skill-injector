@@ -60,3 +60,11 @@ A third standing cloud routine (`large-skill-injector-daily-digest-email`) runs 
 3. Finishes running sometime between roughly 20:20 and 00:20 America/Los_Angeles (inside the digest routine's 4-hour lookback window).
 
 The digest routine derives a human-readable email label from the filename suffix (e.g. `_top10_corp.md` → "Top 10 Company Digest"); anything it doesn't recognize falls back to a generic title-cased label rather than being skipped. When adding a new daily automated source, prefer a `daily/YYYY-MM-DD_<topic>.md` naming convention consistent with the two above so the fallback label reads sensibly, but it isn't required for the email to include it — only steps 1–3 above are required.
+
+## On daily TODO reminders
+
+`todos/` holds operational state, not wiki knowledge: one file per due date, `todos/YYYY-MM-DD.md` (America/New_York date), each line a `- [ ]` / `- [x]` checklist item. The format is documented in [`todos/README.md`](todos/README.md), which is the only `todos/` page registered in `index.md`; dated TODO files are not registered individually and TODO edits are not logged in `log.md`.
+
+Writers: only the local `daily-todo` skill (`~/.claude/skills/daily-todo/`), triggered when Hui says "remind me tomorrow/on <day> to …". It commits and pushes immediately so the cloud side sees the item.
+
+Reader: the cloud routine `daily-todo-reminder`, cron `0 12,13 * * *` UTC with an in-prompt gate so it acts only when it is 08:xx in America/New_York (DST-proof). It reads `todos/<today ET>.md` from a fresh clone, sends the open items as a phone push notification, and also emails hsun26@ncsu.edu if a Gmail send tool is attached. It never writes to the repo and does not touch `daily/`, so it is not picked up by the digest email above.

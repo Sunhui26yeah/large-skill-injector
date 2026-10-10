@@ -15,6 +15,12 @@ Written automatically to `daily/` by a separate cloud routine at 23:45 (Pacific 
 - [people_watchlist.md](daily/people_watchlist.md) — the maintained list of 21 tracked people plus 1 tracked organization (AI labs/model developers, chips/infrastructure, big tech CEOs, AI safety/academia, capital/governance, companies/organizations); edit this to add/remove who gets tracked
 - (no daily digest pages yet — routine created 2026-08-14, first scheduled fire pending)
 
+## Daily TODO Reminders
+
+Operational TODO state, delivered every morning at 08:00 America/New_York by the `daily-todo-reminder` cloud routine.
+
+- [todos/README.md](todos/README.md) — how `todos/YYYY-MM-DD.md` files are written by the local `daily-todo` skill and read by the routine
+
 ## Concepts
 
 - [LLM Wiki Design Patterns](concepts/LLM_Wiki_Design_Patterns.md) — Survey of several "LLM-maintained personal knowledge base" implementations on GitHub (Karpathy's original pattern, NicholasSpisak/second-brain, Dendron/Logseq/Foam, Andy Matuschak's evergreen notes), and the design decisions made for this repo as a result
