@@ -29,3 +29,4 @@ This comparison also gives a natural empirical hook: PerfAgent could be run as a
 ## See also
 
 - [PerfAgent paper summary](../concepts/PerfAgent_2607_19653.md)
+- [Infeasibility-aware agents idea](Infeasibility_Aware_Agents_Fail_Fast_Idea.md) — sibling idea: negative, scoped knowledge (what cannot be done on a backend) complementing this page's positive-strategy KB
