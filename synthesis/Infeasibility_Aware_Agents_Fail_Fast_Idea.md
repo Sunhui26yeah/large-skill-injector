@@ -191,5 +191,7 @@ Runner-up on the migration side: T2J-Bench (arXiv 2605.29054).
 
 ## See also
 
+- [SEIP 2027 gap verification](SEIP2027_Gap_Verification.md): the 2026-10-15 full-text check, which supersedes the earlier novelty check above where they differ. In particular, TorchTPU goes public on 2026-10-19 and Google's Cloud TPU Nexus must be cited.
+
 - [PerfAgent vs. MCTS + self-evolving-KB idea](PerfAgent_vs_MCTS_KB_PyTorch_Perf_Idea.md): another self-evolving-KB thesis idea on PyTorch. Its KB stores positive strategies; this idea adds negative, scoped knowledge.
 - [ML Operators primer](../concepts/ML_Operators_Primer.md): background on ATen vs. HLO operator sets, lowering and CPU fallback.
