@@ -30,6 +30,7 @@ Operational TODO state, delivered every morning at 08:00 America/New_York by the
 - [NC State CSC PhD Seminar Check-in](concepts/NC_State_CSC_PhD_Seminar_Checkin.md) — Link for the CSC department's PhD graduate seminar attendance check-in system (Unity ID SSO required)
 - [Hosting Interns and Publishing as a Google SWE L4](concepts/Google_L4_Intern_Hosting_And_Publishing.md) — When a May-2027 Google start (Core ML Frameworks & Compiler, L4) makes co-hosting and hosting possible (Student Researcher from ~Nov 2027; first summer intern 2028), and how to keep publishing on a SWE rather than Research Scientist ladder
 - [Non-Fiction Reading List](concepts/Nonfiction_Reading_List.md) — Running to-read list of non-fiction books with who recommended each and how they ranked them; currently *How to Kill a Language* (Sophia Smith Galer), *Challenger* (Adam Higginbotham), *Why We Sleep* (Matthew Walker)
+- [ML Operators (算子): A Beginner's Primer](concepts/ML_Operators_Primer.md) — From-scratch learning note: tensors, operators as graph nodes, semantics vs. interface vs. kernel, PyTorch dispatcher, backward rules/autograd, operator categories, operator sets (ATen / Core ATen / ONNX / HLO) and ATen→HLO lowering with CPU fallback, operator fusion, custom ops, and a 6-step learning path
 
 ## Academic Skills
 

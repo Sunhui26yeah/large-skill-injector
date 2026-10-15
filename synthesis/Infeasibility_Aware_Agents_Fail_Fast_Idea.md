@@ -107,3 +107,4 @@ Runner-up on the migration side: T2J-Bench (arXiv 2605.29054).
 ## See also
 
 - [PerfAgent vs. MCTS + self-evolving-KB idea](PerfAgent_vs_MCTS_KB_PyTorch_Perf_Idea.md): another self-evolving-KB thesis idea on PyTorch. Its KB stores positive strategies; this idea adds negative, scoped knowledge.
+- [ML Operators primer](../concepts/ML_Operators_Primer.md): background on ATen vs. HLO operator sets, lowering and CPU fallback.
