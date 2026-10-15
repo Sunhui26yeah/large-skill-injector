@@ -116,6 +116,8 @@ Paper-method repos that modify or fine-tune foundation models, each with its exp
 
 **Suggested pilot (8):** LoRA, CoOp, DPO, QLoRA, GaLore, GPTQ, MeZO, StreamingLLM.
 
+**Expanded list:** a broader set of 100 less-famous candidates (plus 48 in reserve), with a static code scan, is in [Infeasibility_Migration_Candidates.md](Infeasibility_Migration_Candidates.md).
+
 Whether SVD and Cholesky have XLA lowerings in the chosen torch_xla version is unverified. Measure it in the pilot, since it is itself data.
 
 **Setup caveat:** pre-build a CPU-working environment for each repo, so the agent's task is only the TPU migration. torch_xla pins the torch version, so old repos otherwise confound the results with dependency problems.
